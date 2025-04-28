@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
 import { motion } from "framer-motion";
 import { MotionWrapper } from "./ui/motion-wrapper";
-import { BananaLeaf } from "./animations/banana-leaf";
+// import { BananaLeaf } from "./animations/banana-leaf";
 
 const testimonials = [
   {
@@ -33,14 +33,14 @@ const testimonials = [
 export function Testimonials() {
   return (
     <section className="py-12 md:py-16 bg-appam-light relative overflow-hidden">
-      <motion.div
+      {/* <motion.div
         className="absolute -bottom-20 left-1/2 -translate-x-1/2 opacity-10"
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.1 }}
         transition={{ duration: 1 }}
       >
         <BananaLeaf />
-      </motion.div>
+      </motion.div> */}
 
       <div className="container relative">
         <MotionWrapper className="text-center mb-10">

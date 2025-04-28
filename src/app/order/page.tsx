@@ -194,7 +194,7 @@ export default function OrderPage() {
                     </div>
                   </div>
 
-                  <Button className="w-full bg-appam-primary hover:bg-appam-primary/90">
+                  <Button className="w-full bg-appam-primary hover:bg-appam-primary/90 text-white/90">
                     Proceed to Payment
                   </Button>
 

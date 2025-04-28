@@ -80,7 +80,7 @@ export default function Home() {
               }}
               transition={{ duration: 8, repeat: Number.POSITIVE_INFINITY }}
             >
-              <CoconutTree />
+              <BananaLeaf />
             </motion.div>
             <motion.div
               className="absolute bottom-10 right-10 opacity-20 hidden lg:block"

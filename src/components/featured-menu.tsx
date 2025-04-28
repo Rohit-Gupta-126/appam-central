@@ -135,7 +135,7 @@ export function FeaturedMenu() {
                     <span className="text-lg font-semibold text-appam-secondary">
                       {item.price}
                     </span>
-                    <Button
+                    {/* <Button
                       size="sm"
                       variant="outline"
                       className="border-appam-secondary text-appam-secondary hover:bg-appam-secondary/10"
@@ -147,7 +147,7 @@ export function FeaturedMenu() {
                       >
                         Add to Cart
                       </motion.span>
-                    </Button>
+                    </Button> */}
                   </div>
                 </CardContent>
               </Card>
@@ -156,7 +156,7 @@ export function FeaturedMenu() {
         </motion.div>
 
         <MotionWrapper className="mt-10 text-center" delay={0.6}>
-          <Button className="bg-appam-primary hover:bg-appam-primary/90">
+          <Button className="bg-appam-primary hover:bg-appam-primary/90 text-white/90">
             <motion.span
               initial={{ x: 0 }}
               whileHover={{ x: -4 }}

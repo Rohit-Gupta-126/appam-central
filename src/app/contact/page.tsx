@@ -93,7 +93,7 @@ export default function ContactPage() {
                             className="bg-appam-light border-appam-accent/20 focus:border-appam-primary"
                           />
                         </div>
-                        <Button className="w-full bg-appam-primary hover:bg-appam-primary/90">
+                        <Button className="w-full bg-appam-primary hover:bg-appam-primary/90 text-white/90 mt-48">
                           Send Message
                         </Button>
                       </form>
@@ -184,7 +184,7 @@ export default function ContactPage() {
                           For table reservations, please call us or use the form
                           to send a request.
                         </p>
-                        <Button className="w-full bg-appam-primary hover:bg-appam-primary/90">
+                        <Button className="w-full bg-appam-primary hover:bg-appam-primary/90 text-white/90">
                           Book a Table
                         </Button>
                       </div>
@@ -203,7 +203,7 @@ export default function ContactPage() {
                 </h2>
                 <div className="rounded-xl overflow-hidden h-[400px] shadow-lg">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.2875212064716!2d85.83!3d20.23!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDEzJzQ4LjAiTiA4NcKwNDknNDguMCJF!5e0!3m2!1sen!2sin!4v1651234567890!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8964.828700559008!2d85.83015213731717!3d20.251957772523316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a7004676c2e3%3A0x7749445c8b6d81fa!2sAppam%20Central!5e0!3m2!1sen!2sin!4v1745875194870!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

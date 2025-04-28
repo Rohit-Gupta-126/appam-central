@@ -105,3 +105,8 @@
 .hover\:text-appam-primary:hover {
   color: #8b3a2f;
 }
+
+.container {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}

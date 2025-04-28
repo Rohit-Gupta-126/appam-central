@@ -63,7 +63,7 @@ export function HeroSection() {
           </motion.div>
 
           <motion.div
-            className="absolute -bottom-10 -left-10 opacity-50 hidden md:block"
+            className="absolute -bottom-10 left-10 opacity-50 hidden md:block"
             initial={{ opacity: 0, rotate: -10 }}
             animate={{ opacity: 0.5, rotate: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
