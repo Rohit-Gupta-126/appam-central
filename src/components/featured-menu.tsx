@@ -51,10 +51,10 @@ export function FeaturedMenu() {
     },
   };
 
-  const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0 },
-  };
+  // const item = {
+  //   hidden: { opacity: 0, y: 20 },
+  //   show: { opacity: 1, y: 0 },
+  // };
 
   return (
     <section className="py-12 md:py-16 bg-appam-background relative overflow-hidden">
@@ -109,7 +109,7 @@ export function FeaturedMenu() {
           viewport={{ once: true, margin: "-100px" }}
         >
           {featuredItems.map((item) => (
-            <motion.div key={item.id} variants={item as any}>
+            <motion.div key={item.id}>
               <Card className="overflow-hidden bg-appam-light border-appam-accent/20 hover:shadow-md transition-shadow group">
                 <div className="aspect-square relative overflow-hidden">
                   <motion.div

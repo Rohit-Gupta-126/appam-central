@@ -23,7 +23,7 @@ export default function ContactPage() {
                   Contact Us
                 </h1>
                 <p className="text-appam-text/80 max-w-2xl mx-auto">
-                  We'd love to hear from you! Whether you have a question,
+                  We&apos;d love to hear from you! Whether you have a question,
                   feedback, or want to make a reservation, our team is here to
                   help.
                 </p>

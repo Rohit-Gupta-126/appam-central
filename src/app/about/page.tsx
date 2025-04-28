@@ -40,7 +40,7 @@ export default function AboutPage() {
                     <h2 className="text-3xl font-bold mb-6">Our Journey</h2>
                     <p className="text-gray-700 mb-4">
                       Appam Central began as a small family kitchen in the heart
-                      of Kerala, where our founder's grandmother would prepare
+                      of Kerala, where our founder&apos;s grandmother would prepare
                       her famous appams and stew for Sunday gatherings. What
                       started as a cherished family tradition has now grown into
                       a culinary destination that celebrates the diverse flavors
@@ -88,7 +88,7 @@ export default function AboutPage() {
                     </p>
                     <p className="text-gray-700 mb-4">
                       Traditionally cooked in a special curved pan called an
-                      "appachatti," these lacy pancakes are a testament to the
+                      &quot;appachatti,&quot; these lacy pancakes are a testament to the
                       culinary ingenuity of South Indian cooks who have
                       perfected this art over centuries.
                     </p>
@@ -130,7 +130,7 @@ export default function AboutPage() {
                       The Comfort of Kerala Stew
                     </h3>
                     <p className="text-gray-700 mb-4">
-                      Kerala stew, or "Ishtu" as it's locally known, is a
+                      Kerala stew, or &quot;Ishtu&quot; as it&apos;s locally known, is a
                       gentle, aromatic dish that perfectly complements the
                       delicate flavor of appam. This coconut milk-based stew,
                       infused with whole spices like cardamom, cinnamon, and
@@ -160,13 +160,13 @@ export default function AboutPage() {
                       The Ritual of Filter Kaapi
                     </h3>
                     <p className="text-gray-700 mb-4">
-                      Filter Kaapi is more than just a beverage; it's a cultural
+                      Filter Kaapi is more than just a beverage; it&apos;s a cultural
                       institution in South India. This strong, aromatic coffee
                       is brewed using a traditional metal filter, creating a
                       decoction that is then mixed with boiled milk and sugar.
                     </p>
                     <p className="text-gray-700 mb-4">
-                      The true art of Filter Kaapi lies in the "pulling"
+                      The true art of Filter Kaapi lies in the &quot;pulling&quot;
                       technique, where the coffee is poured back and forth
                       between a tumbler and davara (bowl) from a height,
                       creating a frothy, perfectly mixed drink and cooling it to
@@ -216,7 +216,7 @@ export default function AboutPage() {
                         In South India, serving meals on banana leaves is an
                         age-old tradition that goes beyond mere presentation.
                         The banana leaf is not just a natural, biodegradable
-                        plate; it's believed to impart subtle flavors to the
+                        plate; it&apos;s believed to impart subtle flavors to the
                         food and has antimicrobial properties that make it an
                         ideal dining surface.
                       </p>

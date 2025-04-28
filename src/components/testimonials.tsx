@@ -48,7 +48,8 @@ export function Testimonials() {
             What Our Customers Say
           </h2>
           <p className="text-appam-text/80 max-w-2xl mx-auto">
-            Don't just take our word for it - hear from our satisfied customers
+            Don&apos;t just take our word for it - hear from our satisfied
+            customers
           </p>
         </MotionWrapper>
 
@@ -85,7 +86,7 @@ export function Testimonials() {
                     ))}
                   </motion.div>
                   <p className="text-appam-text mb-4">
-                    "{testimonial.comment}"
+                    &quot;{testimonial.comment}&quot;
                   </p>
                   <p className="font-semibold text-appam-primary">
                     {testimonial.name}
