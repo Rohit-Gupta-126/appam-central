@@ -9,7 +9,6 @@ import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { MotionWrapper } from "@/components/ui/motion-wrapper";
-import { CoconutTree } from "@/components/animations/coconut-tree";
 import { BananaLeaf } from "@/components/animations/banana-leaf";
 import { AnimatedPageWrapper } from "@/components/animated-page-wrapper";
 
