@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: 39 54% 91%;
+    --foreground: 30 37% 26%;
+
+    --card: 39 70% 95%;
+    --card-foreground: 30 37% 26%;
+
+    --popover: 39 70% 95%;
+    --popover-foreground: 30 37% 26%;
+
+    --primary: 10 40% 39%;
+    --primary-foreground: 39 70% 95%;
+
+    --secondary: 25 52% 41%;
+    --secondary-foreground: 39 70% 95%;
+
+    --muted: 39 30% 85%;
+    --muted-foreground: 30 20% 40%;
+
+    --accent: 35 65% 60%;
+    --accent-foreground: 30 37% 26%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 39 70% 95%;
+
+    --border: 30 30% 80%;
+    --input: 30 30% 80%;
+    --ring: 35 65% 60%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(
+      var(--border)
+    ); /* Direct CSS property instead of @apply */
+  }
+  body {
+    background-color: #f8ecd8; /* Direct color for appam-background */
+    color: #5c3c28; /* Direct color for appam-text */
+    font-family: var(--font-poppins, sans-serif); /* Font family for body */
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-playfair, serif); /* Font family for headings */
+    font-weight: 600; /* Font weight for headings */
+  }
+}
+
+/* Custom colors for direct reference */
+.bg-appam-background {
+  background-color: #f8ecd8;
+}
+.bg-appam-primary {
+  background-color: #8b3a2f;
+}
+.bg-appam-secondary {
+  background-color: #a05a32;
+}
+.bg-appam-accent {
+  background-color: #d9a45b;
+}
+.bg-appam-light {
+  background-color: #fdf6eb;
+}
+.text-appam-text {
+  color: #5c3c28;
+}
+.text-appam-primary {
+  color: #8b3a2f;
+}
+.text-appam-secondary {
+  color: #a05a32;
+}
+.text-appam-accent {
+  color: #d9a45b;
+}
+.text-appam-light {
+  color: #fdf6eb;
+}
+.border-appam-accent {
+  border-color: #d9a45b;
+}
+
+.appam-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23a05a32' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Hover variants */
+.hover\:bg-appam-primary\/90:hover {
+  background-color: rgba(139, 58, 47, 0.9);
+}
+.hover\:bg-appam-light\/10:hover {
+  background-color: rgba(253, 246, 235, 0.1);
+}
+.hover\:text-appam-primary:hover {
+  color: #8b3a2f;
+}
