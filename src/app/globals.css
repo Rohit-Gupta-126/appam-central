@@ -110,3 +110,19 @@
   padding-left: 6rem;
   padding-right: 6rem;
 }
+
+/* Tablet (width between 768px and 1024px) */
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* Mobile (width less than 768px) */
+@media (max-width: 767px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
